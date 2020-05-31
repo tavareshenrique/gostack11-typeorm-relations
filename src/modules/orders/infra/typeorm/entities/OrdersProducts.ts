@@ -30,7 +30,7 @@ class OrdersProducts {
   @JoinColumn({ name: 'product_id' })
   product: Product;
 
-  @Column({ type: 'decimal', precision: 10, scale: 2 })
+  @Column({ type: 'decimal', precision: 5, scale: 2 })
   price: number;
 
   @Column('integer')
